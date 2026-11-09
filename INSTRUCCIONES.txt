@@ -1,0 +1,1 @@
+Descomprime y sube index.html, style.css, app.js y la carpeta assets a public_html de tu hosting, reemplazando la version anterior. Conserva las carpetas. No requiere instalacion ni compilacion. Incluye logos reducidos, WhatsApp +593 99 975 7379 y enlace directo a LinkedIn.
