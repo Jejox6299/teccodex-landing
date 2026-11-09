@@ -55,3 +55,28 @@
 .intro-skip{position:absolute;right:6%;bottom:35px;border:1px solid #ffffff25;border-radius:3px;background:transparent;color:#b5c9da;padding:12px 16px;font-size:11px;cursor:pointer}.intro-skip span{margin-left:20px}.intro-skip:hover{background:#ffffff10;color:white}.brand-intro.is-leaving{opacity:0;transform:scale(1.035);transition:opacity .65s ease,transform .65s ease;pointer-events:none}
 @keyframes intro-connect{to{stroke-dashoffset:0}}@keyframes intro-reveal{from{opacity:0;transform:translateY(12px);filter:blur(5px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}@keyframes intro-node{from{opacity:0}to{opacity:.7}}@keyframes intro-ring{from{opacity:.7;transform:scale(.1)}to{opacity:0;transform:scale(3)}}@keyframes intro-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}@keyframes intro-failsafe{to{visibility:hidden;pointer-events:none}}
 @media(max-width:650px){.intro-kicker{font-size:7px;letter-spacing:1px;margin-bottom:30px}.intro-network{opacity:.7}.intro-skip{bottom:24px}}
+
+.direct-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 32px;
+}
+.direct-contact-info a {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    color: #acbccb;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+.direct-contact-info a:hover {
+    color: var(--blue);
+    transform: translateX(4px);
+}
+.direct-contact-info svg {
+    width: 18px;
+    height: 18px;
+    stroke: var(--blue);
+}
